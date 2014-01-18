@@ -26,16 +26,19 @@ blockquote, table, hr {
 
 .yotta {
   font-size: 2.2807rem;
+  font-weight: 100;
   line-height: 1.0276;
 }
 
 .zetta {
   font-size: 2.0273rem;
+  font-weight: 700;
   line-height: 1.0174;
 }
 
 h1, .exa {
   font-size: 1.8020rem;
+  font-weight: 400;
   line-height: 1.0405;
 }
 
@@ -56,12 +59,15 @@ h4, .giga {
 
 h5, .mega {
   font-size: 1.1250rem;
+  font-weight: 900;
   line-height: 1.0000;
 }
 
 h6, .kilo {
   font-size: 1.0000rem;
+  font-weight: 900;
   line-height: 1.0313;
+  color: #ff9013;
 }
 
 small, .milli {
@@ -92,6 +98,7 @@ a, a:link{
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(100,202,245,0.5);
 	transition: all 200ms linear;
+	font-weight: 100;
 }
 
 a:visited{
@@ -105,3 +112,29 @@ a:active{
 	color: #ff9013;
 	border-bottom-color: #ff9013;
 }
+
+hr{
+	color: #ff9013;
+	border-color: #ff9013;
+	background-color: #ff9013;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	position: relative;
+}
+
+ul li:before{
+	content:"∆";
+	position: absolute;
+	left: -1rem;
+}
+
+
+
+
+
+
