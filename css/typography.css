@@ -143,6 +143,7 @@ strong{
 }
 
 cite{
+  font-family: 'raleway', sans-serif;
   font-size: 1.2rem;
   font-weight: 100;
 }
@@ -151,3 +152,18 @@ mark{
   background-color:rgba(255,144,19,0.5);
 }
 
+caption{
+  font-family: 'raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+th, td{
+  font-family: 'raleway', sans-serif;
+  padding-right: 0.25rem;
+}
+
+td{
+  font-weight: 400;
+}
