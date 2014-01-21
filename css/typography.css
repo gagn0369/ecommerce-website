@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6,
 
 p, ul, ol, dl, table, hr{
 	font: normal 100%/1.5 'domine', serif;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -59,13 +60,13 @@ h4, .giga {
 
 h5, .mega {
   font-size: 1.1250rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.0000;
 }
 
 h6, .kilo {
   font-size: 1.0000rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.0313;
   color: #ff9013;
 }
@@ -133,8 +134,20 @@ ul li:before{
 	left: -1rem;
 }
 
+em, i{
+  font-style: italic;
+}
 
+strong{
+  font-weight: 900;
+}
 
+cite{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
 
-
+mark{
+  background-color:rgba(255,144,19,0.5);
+}
 
