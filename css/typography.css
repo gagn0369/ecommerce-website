@@ -134,10 +134,6 @@ ul li:before{
 	left: -1rem;
 }
 
-em, i{
-  font-style: italic;
-}
-
 strong{
   font-weight: 900;
 }
