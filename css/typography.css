@@ -4,8 +4,11 @@
   - Fuschia (brand colour): #e81547 - rgb(232, 6, 76)
   - Cyan: #64caf5 - rgb(100, 202, 245)
   - Medium Blue: #4367e8 rgb(67, 103, 232)
-  - Lime green: #BDF383; rgb(189,243,131)
+  - Lime green: #bdf383; rgb(189,243,131)
   - Black: #000 - rgb(0, 0, 0)
+
+   <link href='http://fonts.googleapis.com/css?family=
+   Domine|Raleway:400,700,900,100' rel='stylesheet' type='text/css'>
  */
 
 h1, h2, h3, h4, h5, h6,
@@ -42,6 +45,7 @@ h1, .exa {
   font-size: 1.8020rem;
   font-weight: 400;
   line-height: 1.0405;
+  font-weight: 700;
 }
 
 h2, .peta {
