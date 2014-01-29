@@ -1,6 +1,6 @@
 /*
   Colour Palette
-  - Orange: #ff9013 - rgb(255, 144, 19)
+  - Orange: (brand colour 2) #ff9013 - rgb(255, 144, 19)
   - Fuschia (brand colour): #e81547 - rgb(232, 6, 76)
   - Cyan: #64caf5 - rgb(100, 202, 245)
   - Medium Blue: #4367e8 rgb(67, 103, 232)
@@ -92,6 +92,10 @@ small, .milli {
 
 .brand-color{
 	color:#e81547;
+}
+
+.brand-color-2{
+  color:#ff9013;
 }
 
 ::selection{

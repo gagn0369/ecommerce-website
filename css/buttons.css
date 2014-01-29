@@ -8,14 +8,23 @@
 	background-image: linear-gradient(to bottom, #fff, #f0f0f0);
 	border-radius: 6px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-	color: #bdf383;
+	color: #ff9013;
 	font-weight: 400;
 }
 
 .btn-alt,
 .btn-alt:link,
-.btn:visited{
+.btn-alt:visited{
 	background-color: #bdf383;
 	background-image: linear-gradient(to bottom, #bdf383, #aaf05f);
 	color: #fff;
+}
+
+.btn-center,
+.btn-center:link,
+.btn-center:visited{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width:20%;
 }
