@@ -1,0 +1,10 @@
+.promo-small{
+	background-color: #fff;
+	border: solid 5px #ff9013;
+	padding: 1rem;
+}
+
+.promo-text{
+	color: #64caf5;
+	font-weight: 400;
+}
