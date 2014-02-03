@@ -1,48 +1,53 @@
-.header{
-	background-color: yellow;
+header{
 	margin: 0;
 	padding: 0;
-	height: 10rem;
+	height: 6rem;
 	width: 100%;
-	border-bottom: 1px solid #64caf5;
+	/*border-bottom: 1px solid #64caf5;*/
+}
+
+.grid{
+	background-color: yellow;
+}
+
+.search{
+	background-color: white;
 }
 
 .logo-1{
-	margin-top:0.25rem;
-	margin-bottom:0.25rem;
 	padding: 0;
 	vertical-align: middle;
 	max-height: 90%;
 }
 
-.search-mobile{
-	border-bottom: 1px solid #64caf5;
-	display: block;
-	float: right;
+.wordmark{
+	margin: 0;
+	padding: 0;
 }
 
-.search-full{
-	display: none;
+.logo-2{
+	height: 6rem;
+	padding: 0;
+	margin: 0;
 }
 
-.nav li{
+.nav-top li{
 	font-weight: 700;
-	margin: 1rem 0.5rem 0 0.5rem;
+	margin: 1.2rem 0.5rem 0 0.5rem;
+}
+
+.nav-top a{
+	text-transform: none;
+	border-bottom: none;
 }
 
 nav{
 	border-bottom: 1px solid #64caf5;
+	border-top: 1px solid #64caf5;
 }
 
 @media only screen and (min-width: 30){
 
-.search-mobile{
-	display: none;
-}
-
-.search-full{
-	display: block;
-}
 
 
 }
