@@ -1,10 +1,51 @@
 .footer{
 	background-color: yellow;
+	height: 8rem;
 }
 
 .icon{
 	display: inline-block;
-	width:50px;
+	width:40px;
 	float: none;
-	padding: 0.5rem;
+}
+
+.icons-all{
+	display: block;
+	text-align: center;
+}
+
+.footer p{
+	display: block;
+	text-align: center;
+	margin-top:1rem;
+	font-weight: 400;
+	font-size: 0.7901rem;
+}
+
+@media only screen and (min-width: 30rem){
+
+.icon{
+	width: 50px;
+}
+
+.footer p{
+	font-size: 0.9rem;
+}
+
+}
+
+@media only screen and (min-width: 50rem){
+
+.footer{
+	height: 4rem;
+}
+
+.icon{
+	margin-top: 0.5rem;
+}
+
+.footer p{
+	font-size: 0.9rem;
+}
+
 }
