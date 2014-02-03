@@ -2,6 +2,47 @@
 	background-color: yellow;
 	margin: 0;
 	padding: 0;
-	height: 100px;
+	height: 10rem;
 	width: 100%;
+	border-bottom: 1px solid #64caf5;
+}
+
+.logo-1{
+	margin-top:0.25rem;
+	margin-bottom:0.25rem;
+	padding: 0;
+	vertical-align: middle;
+	max-height: 90%;
+}
+
+.search-mobile{
+	border-bottom: 1px solid #64caf5;
+	display: block;
+	float: right;
+}
+
+.search-full{
+	display: none;
+}
+
+.nav li{
+	font-weight: 700;
+	margin: 1rem 0.5rem 0 0.5rem;
+}
+
+nav{
+	border-bottom: 1px solid #64caf5;
+}
+
+@media only screen and (min-width: 30){
+
+.search-mobile{
+	display: none;
+}
+
+.search-full{
+	display: block;
+}
+
+
 }
