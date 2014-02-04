@@ -8,11 +8,14 @@ header{
 .grid{
 	background-color: #f9f7b7;
 	border: 1px solid #ff9013;
-	overflow: hidden;
+}
+
+.logo-1{
+	max-height: 4rem;
 }
 
 .logo-2{
-	max-height: 6rem;
+	
 }
 
 .search{
@@ -34,9 +37,14 @@ nav{
 }
 
 .header-icons-all a{
+	width: 30px;
+	height: 30px;
 	border-bottom: none;
 	text-decoration: none;
 	float: right;
+	background-color: #ff9013;
+	border-radius: 20px;
+	margin: 0.1rem;
 }
 
 @media only screen and (min-width: 40){

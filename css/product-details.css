@@ -1,0 +1,35 @@
+body{
+	width: 96%;
+	margin: 1rem auto;
+}
+
+.price{
+	float: right;
+}
+
+.product-img{
+	width: 96%;
+	height: 100%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+
+.stars{
+	margin-bottom: 0.5rem;
+}
+
+.stars-2{
+	display:none;
+}
+
+.buy-now{
+	margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 40){
+
+.stars-1{
+	display:none;
+}
+
+}

@@ -79,12 +79,12 @@ h6, .kilo {
 
 small, .milli {
   font-size: 0.8889rem;
-  line-height: 1.0547;
+  line-height: 1.1;
 }
 
 .micro {
   font-size: 0.7901rem;
-  line-height: 1.0679;
+  line-height: 1.1;
 }
 
 .brand-family{
@@ -104,7 +104,12 @@ small, .milli {
 	color: #fff;
 }
 
-a, a:link{
+a{
+  text-decoration: none;
+  color: #64caf5;
+}
+
+.link-under, .link-under:link{
 	color:#64caf5;
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(100,202,245,0.5);
@@ -112,22 +117,17 @@ a, a:link{
 	font-weight: 100;
 }
 
-a:visited{
+.link-under:visited{
 	color: #4367e8;
 	border-bottom-color: rgba(67,103,232,0.5);
 }
 
-a:hover,
-a:focus,
-a:active{
-	color: #ff9013;
-	border-bottom-color: #ff9013;
-}
+/*-----*/
 
 hr{
-	color: #ff9013;
-	border-color: #ff9013;
-	background-color: #ff9013;
+	color: #e8e8e8;
+	border-color: #e8e8e8;
+	background-color: #e8e8e8;
 }
 
 ul{
@@ -176,4 +176,8 @@ td{
 
 .center{
   text-align: center;
+}
+
+.indent{
+  margin-left: 2rem;
 }
