@@ -11,11 +11,18 @@ header{
 }
 
 .logo-1{
-	max-height: 4rem;
+	max-height: 6rem;
+	margin-bottom: 0.25rem;
+	display: block;
+	float: right;
 }
 
 .logo-2{
-	
+	max-height: 7rem;
+}
+
+.wordmark{
+	max-height: 6rem;
 }
 
 .search{
@@ -24,7 +31,7 @@ header{
 
 .nav-top li{
 	font-weight: 700;
-	margin: 2.2rem 0.5rem 0 0.5rem;
+	margin: 1rem 0.5rem 0 0.5rem;
 }
 
 .nav-top a{
