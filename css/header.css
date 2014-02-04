@@ -1,39 +1,27 @@
 header{
 	margin: 0;
 	padding: 0;
-	height: 6rem;
 	width: 100%;
 	/*border-bottom: 1px solid #64caf5;*/
 }
 
 .grid{
-	background-color: yellow;
+	background-color: #f9f7b7;
+	border: 1px solid #ff9013;
+	overflow: hidden;
+}
+
+.logo-2{
+	max-height: 6rem;
 }
 
 .search{
 	background-color: white;
 }
 
-.logo-1{
-	padding: 0;
-	vertical-align: middle;
-	max-height: 90%;
-}
-
-.wordmark{
-	margin: 0;
-	padding: 0;
-}
-
-.logo-2{
-	height: 6rem;
-	padding: 0;
-	margin: 0;
-}
-
 .nav-top li{
 	font-weight: 700;
-	margin: 1.2rem 0.5rem 0 0.5rem;
+	margin: 2.2rem 0.5rem 0 0.5rem;
 }
 
 .nav-top a{
@@ -42,11 +30,16 @@ header{
 }
 
 nav{
-	border-bottom: 1px solid #64caf5;
-	border-top: 1px solid #64caf5;
+	margin-top: 0.5rem;
 }
 
-@media only screen and (min-width: 30){
+.header-icons-all a{
+	border-bottom: none;
+	text-decoration: none;
+	float: right;
+}
+
+@media only screen and (min-width: 40){
 
 
 
