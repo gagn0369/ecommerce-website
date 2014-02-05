@@ -7,12 +7,20 @@ header{
 
 .grid{
 	background-color: #f9f7b7;
-	border: 1px solid #ff9013;
+	border-bottom: 1px solid #ff9013;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+		-moz-transition: all 350ms ease-in-out;
+        -ms-transition: all 350ms ease-in-out;
+        -o-transition: all 350ms ease-in-out;
+		transition: all 350ms ease-in-out;
 }
 
 .logo-1{
 	max-height: 6rem;
-	margin-bottom: 0.25rem;
+	margin-bottom: 1rem;
 	display: block;
 	float: right;
 }
@@ -36,7 +44,11 @@ header{
 
 .nav-top a{
 	text-transform: none;
-	border-bottom: none;
+	border-bottom: 1px solid #e81547;
+}
+
+.nav-top a:hover{
+	border-bottom: 5px solid #e81547;
 }
 
 nav{
@@ -50,6 +62,17 @@ nav{
 	text-decoration: none;
 	float: right;
 	background-color: #ff9013;
+	border-radius: 20px;
+	margin: 0.1rem;
+}
+
+.header-icons-all a:hover{
+	width: 30px;
+	height: 30px;
+	border-bottom: none;
+	text-decoration: none;
+	float: right;
+	background-color: #64caf5;
 	border-radius: 20px;
 	margin: 0.1rem;
 }
