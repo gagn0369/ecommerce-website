@@ -4,6 +4,10 @@ body{
 	background-color: #f9f7b7;
 }
 
+.product-all .grid:nth-child(2n){
+	background-color: #fff;
+}
+
 .price{
 	float: right;
 }
