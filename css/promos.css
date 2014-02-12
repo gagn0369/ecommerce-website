@@ -13,10 +13,12 @@
 .promo-text{
 	color: #64caf5;
 	font-weight: 400;
+	margin-top: 0.5rem;
 }
 
 .promo-img{
 	margin: 0 0 20px 0;
+	width: 100%;
 }
 
 .img-center{
