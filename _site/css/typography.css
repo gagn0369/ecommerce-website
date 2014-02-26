@@ -1,0 +1,183 @@
+/*
+  Colour Palette
+  - Fuschia (brand colour): #e81547 - rgb(232, 6, 76)
+  - Orange: (brand colour 2) #ff9013 - rgb(255, 144, 19)
+  - Cyan: #64caf5 - rgb(100, 202, 245)
+  - Medium Blue: #4367e8 rgb(67, 103, 232)
+  - Lime green: #bdf383; rgb(189,243,131)
+  - Light Yellow: #f9f7b7;
+  - Black: #000 - rgb(0, 0, 0)
+
+   <link href='http://fonts.googleapis.com/css?family=
+   Domine|Raleway:400,700,900,100' rel='stylesheet' type='text/css'>
+ */
+
+h1, h2, h3, h4, h5, h6,
+.brand{
+	font: normal 100%/1.5 'raleway', sans-serif;
+	color: #e8064c;
+}
+
+p, ul, ol, dl, table, hr{
+	font: normal 100%/1.5 'domine', serif;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+	margin: 0 0 1.5rem;
+  /*margin: 0 0 0.09375rem;*/
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  font-weight: 100;
+  line-height: 1.0276;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  font-weight: 700;
+  line-height: 1.0174;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  font-weight: 400;
+  line-height: 1.0405;
+  font-weight: 700;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.0535;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.0535;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.0370;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  font-weight: 700;
+  line-height: 1.0000;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  font-weight: 700;
+  line-height: 1.0313;
+  color: #ff9013;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.1;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.1;
+}
+
+.brand-family{
+	font-family: 'raleway', sans-serif;
+}
+
+.brand-color{
+	color:#e81547;
+}
+
+.brand-color-2{
+  color:#ff9013;
+}
+
+::selection{
+	background-color: #ff9013;
+	color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #64caf5;
+}
+
+.link-under, .link-under:link{
+	color:#64caf5;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(100,202,245,0.5);
+	transition: all 200ms linear;
+	font-weight: 100;
+}
+
+.link-under:visited{
+	color: #4367e8;
+	border-bottom-color: rgba(67,103,232,0.5);
+}
+
+/*-----*/
+
+hr{
+	color: #e8e8e8;
+	border-color: #e8e8e8;
+	background-color: #e8e8e8;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	position: relative;
+}
+
+ul li:before{
+	content:"∆";
+	position: absolute;
+	left: -1rem;
+}
+
+strong{
+  font-weight: 900;
+}
+
+cite{
+  font-family: 'raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+mark{
+  background-color:rgba(255,144,19,0.5);
+}
+
+caption{
+  font-family: 'raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+th, td{
+  font-family: 'raleway', sans-serif;
+  padding-right: 0.25rem;
+}
+
+td{
+  font-weight: 400;
+}
+
+.center{
+  text-align: center;
+}
+
+.indent{
+  margin-left: 2rem;
+}

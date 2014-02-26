@@ -1,0 +1,26 @@
+.promo-small{
+	background-color: rgba(189,243,131,0.25);
+	border: solid 5px #ff9013;
+	padding: 1rem;
+}
+
+.promo-large{
+	background-color: rgba(255, 144, 19, 0.25);
+	border: solid 5px #e81547;
+	padding: 1rem;
+}
+
+.promo-text{
+	color: #64caf5;
+	font-weight: 400;
+	margin-top: 0.5rem;
+}
+
+.promo-img{
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+.img-center{
+	margin:0 auto;
+}
