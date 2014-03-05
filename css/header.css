@@ -14,10 +14,7 @@ header{
 }
 
 .logo-1{
-	max-height: 6rem;
-	margin-bottom: 1rem;
-	display: block;
-	float: right;
+	display: none;
 }
 
 .logo-2{
@@ -73,4 +70,17 @@ nav{
 	border-radius: 20px;
 	margin: 0.1rem;
 	padding: 0;
+}
+
+@media only screen and (min-width: 40rem){
+
+.logo-1{
+	max-height: 6rem;
+	margin-bottom: 1rem;
+	display: block;
+	float: right;
+
+}
+
+
 }
