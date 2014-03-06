@@ -34,6 +34,7 @@ header{
 	text-transform: none;
 	border-bottom: 0;
 	color: #e81547;
+	padding: 2px;
 }
 
 .nav-top a:hover{
@@ -70,6 +71,17 @@ nav{
 	border-radius: 20px;
 	margin: 0.1rem;
 	padding: 0;
+}
+
+.current{
+	background-color: rgba(255, 144, 19, 0.5)
+}
+
+.banner{
+  background: #f9f7b7 url("../images/banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 4em 1em 1em 4em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 40rem){
