@@ -84,6 +84,22 @@ nav{
   text-align: center;
 }
 
+.subnav li{
+	font-weight: 700;
+	margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.subnav a{
+	text-transform: none;
+	border-bottom: 0;
+	color: #e81547;
+	padding: 2px;
+}
+
+.subnav a:hover{
+	border-bottom: 5px solid #e81547;
+}
+
 @media only screen and (min-width: 40rem){
 
 .logo-1{
