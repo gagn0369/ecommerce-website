@@ -4,8 +4,8 @@ title: Orange Fruits
 ---
 
 <div class="grid">
-	<div class="unit unit-s-1 unit-m-1-2 unit l-1-3">
-		<h1>Orange-Peeled Fruits</h1>
+	<div class="unit unit-s-1">
+		<h1>Fruits with Orange Peels</h1>
 	</div>
 </div>
 
@@ -13,9 +13,9 @@ title: Orange Fruits
 {% for store in site.pages %}
 	{% if store.colour == 'orange' %}	
 	<li>
-		<a class="link-under" href="{{site.baseurl}}{{store.url}}">
-			<img class="img-flex" src="{{site.baseurl}}/images/{{store.image}}" alt="">
+		<a class="brand-color-2 brand-family tera" href="{{site.baseurl}}{{store.url}}">
 			{{store.name}}
+			<img class="prod-list-img" src="{{site.baseurl}}/images/{{store.image}}" alt="">
 		</a>
 	</li>
 	{% endif %}

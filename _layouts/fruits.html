@@ -1,17 +1,15 @@
 ---
 layout: default
 ---
+    <div class="unit unit-s-1">
 
-    <div class="unit unit-s-1 subnav">
-
-      <ul class="list-group">
+      <ul class="list-group subnav">
         <a class="{% if page.url == '/fruits/' %}current{% endif %}" href="{{site.baseurl}}/fruits/" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">All Products</li></a>
         <a class="{% if page.url == '/fruits/orange-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/orange-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Orange Peels</li></a>
         <a class="{% if page.url == '/fruits/green-yellow-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/green-yellow-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Green & Yellow Peels</li></a>
       </ul>
+  </div> 
 
-    <h1>{{page.name}}</h1>
-
-	</div>
+<h1>{{page.name}}</h1>
 
 {{content}}

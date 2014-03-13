@@ -25,3 +25,10 @@ body{
 .color-options li{
 	padding-bottom: 2rem;
 }
+
+.prod-list-img{
+	width: 100%;
+	max-width: 500px;
+	display: block;
+	margin-bottom: 1rem;
+}
