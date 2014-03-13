@@ -3,5 +3,5 @@ layout: fruit
 category: fruit
 name: Lemons
 colour: green-yellow
-image: satsumas.jpg
+image: lemons.jpg
 ---
