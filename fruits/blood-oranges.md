@@ -6,5 +6,6 @@ colour: orange
 image: blood-oranges.jpg
 price: 2 for $5 or 5 for $10
 rating: threestar.png
-flavor: Blood oranges are sweeter than regular oranges
+flavor: An intense orange taste that hints of fresh raspberry.
+info: Blood oranges get their red color from high concentrations of anthocyanin, a powerful antioxidant. Try adding chopped segments into salads or salsas!
 ---

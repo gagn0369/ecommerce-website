@@ -1,7 +1,15 @@
 ---
 layout: default
 ---
+    <div class="unit unit-s-1">
 
+      <ul class="list-group subnav">
+        <a class="{% if page.url == '/fruits/' %}current{% endif %}" href="{{site.baseurl}}/fruits/" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">All Products</li></a>
+        <a class="{% if page.url == '/fruits/orange-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/orange-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Orange Peels</li></a>
+        <a class="{% if page.url == '/fruits/green-yellow-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/green-yellow-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Green & Yellow Peels</li></a>
+      </ul>
+  </div> 
+  
 <body>
 <div class="product-all">
 
@@ -27,6 +35,8 @@ layout: default
       <h6 class="mega price">{{page.price}}</h6>
       <h3>Flavor</h3>
       <p>{{page.flavor}}</p>
+      <h3>Info & Tips</h3>
+      <p>{{page.info}}</p>
       <a href="#" class="btn micro brand-family buy-now">Buy Now!</a>
 
     </div>    
@@ -98,9 +108,18 @@ layout: default
 
   </div>    
 
-
-
 </div>
 </body>
+
+<h5>Back to...</h5>
+
+    <div class="unit unit-s-1">
+
+      <ul class="list-group subnav">
+        <a class="{% if page.url == '/fruits/' %}current{% endif %}" href="{{site.baseurl}}/fruits/" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">All Products</li></a>
+        <a class="{% if page.url == '/fruits/orange-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/orange-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Orange Peels</li></a>
+        <a class="{% if page.url == '/fruits/green-yellow-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/green-yellow-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Green & Yellow Peels</li></a>
+      </ul>
+  </div> 
 
 {{content}}
