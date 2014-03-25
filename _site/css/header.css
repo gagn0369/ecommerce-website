@@ -82,6 +82,7 @@ nav{
   background-size: cover;
   padding: 4em 1em 1em 4em;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .subnav li{
