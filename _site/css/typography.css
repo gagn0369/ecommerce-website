@@ -122,6 +122,18 @@ a{
 	border-bottom-color: rgba(67,103,232,0.5);
 }
 
+a:hover, a:active{
+  /* okay to remove focus rectangle for mouse users only */
+  outline: none;
+}
+
+a:focus,
+input:focus,
+button:focus{
+  /* ALWAYS have a focus rectangle/outline */
+  outline: 3px solid #64caf5;
+}
+
 /*-----*/
 
 hr{

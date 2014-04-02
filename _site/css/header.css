@@ -102,6 +102,11 @@ nav{
 	border-bottom: 3px solid #e81547;
 }
 
+.search-label{
+	position:absolute;
+	top:-10em;
+}
+
 @media only screen and (min-width: 40rem){
 
 .logo-1{
