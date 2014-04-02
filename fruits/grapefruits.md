@@ -4,6 +4,7 @@ category: fruit
 name: Grapefruit
 colour: orange
 image: grapefruit.jpg
+alt: grapefruit
 price: 3 for $5
 rating: fourstar.png
 flavor: Sweet, tangy, and a little bitter.

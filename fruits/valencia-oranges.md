@@ -4,6 +4,7 @@ category: fruit
 name: Valencia Oranges
 colour: orange
 image: oranges.jpg
+alt: valencia oranges
 price: $4 a bag
 rating: fivestar.png
 flavor: That classic sweet and tangy orange taste!

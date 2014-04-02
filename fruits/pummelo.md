@@ -4,6 +4,7 @@ category: fruit
 name: Pummelos
 colour: green-yellow
 image: pummelos.jpg
+alt: pummelos
 price: 2 for $5
 rating: threestar.png
 flavor: Pummelos have a slightly milder grapefruit taste.

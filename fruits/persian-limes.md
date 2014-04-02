@@ -4,6 +4,7 @@ category: fruit
 name: Persian Limes
 colour: green-yellow
 image: limes.jpg
+alt: limes
 price: 4 for $5
 rating: threestar.png
 flavor: Piney, tangy, with a hint of floral and spiciness.

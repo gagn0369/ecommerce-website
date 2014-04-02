@@ -4,6 +4,7 @@ category: fruit
 name: Tangerines
 colour: orange
 image: tangerines.jpg
+alt: tangerines
 rating: fivestar.png
 price: $3.50 a box
 flavor: Almost as sweet as an orange, with some tanginess.

@@ -4,6 +4,7 @@ category: fruit
 name: Blood Oranges
 colour: orange
 image: blood-oranges.jpg
+alt: blood oranges
 price: 2 for $5 or 5 for $10
 rating: threestar.png
 flavor: An intense orange taste that hints of fresh raspberry.

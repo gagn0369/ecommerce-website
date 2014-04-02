@@ -4,6 +4,7 @@ category: fruit
 name: Uglis
 colour: green-yellow
 image: ugli.jpg
+alt: uglis
 rating: fourstar.png
 price: $1 each.
 flavor: Very sweet.

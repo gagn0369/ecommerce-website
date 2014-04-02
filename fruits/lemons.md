@@ -4,6 +4,7 @@ category: fruit
 name: Lemons
 colour: green-yellow
 image: lemons.jpg
+alt: lemons
 price: 4 for $5
 rating: threestar.png
 flavor: Tart and tangy.

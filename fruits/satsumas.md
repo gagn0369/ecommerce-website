@@ -4,6 +4,7 @@ category: fruit
 name: Satsumas
 colour: orange
 image: satsumas.jpg
+alt: satsumas
 rating: threestar.png
 price: $5 a box
 flavor: Sweet and mild.
