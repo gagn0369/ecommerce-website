@@ -31,7 +31,7 @@ User testing was conducted by Madeleine on March 26, 2014 between the times of 3
 
 - she found the search bar easily but instead of pressing enter after typing, pressed the icon button again (which only opens/closes the search bar)
 - didn't realise right away that you have to press enter
-- she found lemons on the 'all products' page rather than narrowing down to the 'green and yellow peels' page, unlike previous two testers
+- she scrolled to lemons on the 'all products' page rather than narrowing down to 'green and yellow peels', unlike previous two testers
 - checked out easily
 
 ---
@@ -45,6 +45,7 @@ User testing was conducted by Madeleine on March 26, 2014 between the times of 3
 ### Serious, Causes Frustration, May Hinder Completion
 
 - search bar a little confusing since after typing you can't press the icon to actually see search results - it will just close the search bar.
+- to fix this, I changed the placeholder text to read 'hit enter to search'
 
 ### Minor, Annoying, Won’t Hinder Completion
 
