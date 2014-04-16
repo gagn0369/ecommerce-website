@@ -204,6 +204,11 @@ td{
   padding-right: 0.7500rem;
 }
 
+.gutter-quarter, .gutter-1-4 {
+  padding-left: 0.2500rem;
+  padding-right: 0.2500rem;
+}
+
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;

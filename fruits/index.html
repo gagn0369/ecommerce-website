@@ -9,18 +9,18 @@ title: Citrus Smiles Store
 	</div>
 </div>
 
-<ul>
+<div class="grid" role="main">
 {% for store in site.pages %}
 	{% if store.category == 'fruit' %}
-		<div class="grid" role="main">
-			<div class="unit unit-s-1 unit-m-1-3 unit-l-1-4">	
-				<li>
+		
+			<div class="unit unit-s-1 unit-m-1-3 unit-l-1-4 gutter-1-4">	
+				
 					<a class="brand-color-2 brand-family tera" href="{{site.baseurl}}{{store.url}}">
 						{{store.name}}
 						<img class="prod-list-img" src="{{site.baseurl}}/images/{{store.image}}" alt="{{page.alt}}">
 					</a>
-				</li>
+				
 		</div>
 	{% endif %}
 {% endfor %}	
-</ul>
+</div>

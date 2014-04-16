@@ -9,15 +9,15 @@ title: Green and Yellow Fruits
 	</div>
 </div>
 
-<ul>
+<div class="grid">
 {% for store in site.pages %}
 	{% if store.colour == 'green-yellow' %}	
-	<li>
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-4 gutter-1-4">
 		<a class="brand-color-2 brand-family tera" href="{{site.baseurl}}{{store.url}}">
 			{{store.name}}
 			<img class="prod-list-img" src="{{site.baseurl}}/images/{{store.image}}" alt="">
 		</a>
-	</li>
+	</div>
 	{% endif %}
 {% endfor %}	
 </ul>
