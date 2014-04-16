@@ -10,10 +10,28 @@ Thomas J. Bradley - Professor, Mentor
 # IMAGE CREDITS
 
 ##Home Image, Lemons, Limes, Grapefruit, Oranges, 
-Satsumas, Contact Image:
+Satsumas, Tangerines:
 
 -Public domain images from pixabay.com
 -License: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+##Blood Oranges:
+- Link: https://www.flickr.com/photos/lacatholique/8448513555/sizes/o/
+- Image by Leslie Seaton, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+- Image has been cropped.
+
+##Pummelos:
+- Link: https://www.flickr.com/photos/verzo/7642397992/sizes/l
+- Image by Roberto Verzo, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+- Image has been cropped, colours adjusted.
+
+##Pummelos:
+- Link: https://www.flickr.com/photos/andersofsydney/3974632692/sizes/l
+- Image by Anders Alexander, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+- Image has been cropped, colours adjusted.
 
 
 ---
