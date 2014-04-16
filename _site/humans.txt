@@ -3,14 +3,18 @@
 # TEAM
 
 Madeleine Gagné - Designer, Developer
-Thomas J. Bradley - Professor
+Thomas J. Bradley - Professor, Mentor
 
 ---
 
 # IMAGE CREDITS
 
-Public domain images from pixabay.com
-License: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+##Home Image, Lemons, Limes, Grapefruit, Oranges, 
+Satsumas, Contact Image:
+
+-Public domain images from pixabay.com
+-License: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
 
 ---
 
