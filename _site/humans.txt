@@ -27,9 +27,15 @@ Satsumas, Tangerines:
 - License: https://creativecommons.org/licenses/by/2.0/legalcode
 - Image has been cropped, colours adjusted.
 
-##Pummelos:
+##Sweeties:
 - Link: https://www.flickr.com/photos/andersofsydney/3974632692/sizes/l
 - Image by Anders Alexander, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+- Image has been cropped, colours adjusted.
+
+##Uglis:
+- Link: https://www.flickr.com/photos/rachelmargaret/2886652974/sizes/l
+- Image by Rachel Zack, via Flickr
 - License: https://creativecommons.org/licenses/by/2.0/legalcode
 - Image has been cropped, colours adjusted.
 
