@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
-    <div class="unit unit-s-1">
 
-      <ul class="list-group subnav">
-        <a class="{% if page.url == '/fruits/' %}current{% endif %}" href="{{site.baseurl}}/fruits/" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">All Products</li></a>
-        <a class="{% if page.url == '/fruits/orange-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/orange-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Orange Peels</li></a>
-        <a class="{% if page.url == '/fruits/green-yellow-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/green-yellow-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Green & Yellow Peels</li></a>
-      </ul>
-  </div> 
+<div class-"grid">
 
+  <div class="unit unit-s-1 unit-m-1-4 subnav">
+    <a class="{% if page.url == '/fruits/' %}current{% endif %}" href="{{site.baseurl}}/fruits/" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">All Products</li></a>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1-4 subnav">
+    <a class="{% if page.url == '/fruits/orange-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/orange-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Orange Peels</li></a>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1-4 subnav">
+    <a class="{% if page.url == '/fruits/green-yellow-fruit/' %}current{% endif %}" href="{{site.baseurl}}/fruits/green-yellow-fruit" class="ease-all"><li class="list-group-item list-group-item-inline brand-family brand-color mega">Other Peels</li></a>
+  </div>
+
+</div>
 
 <div class-"grid">
 	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-4">
