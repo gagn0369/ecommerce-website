@@ -386,7 +386,7 @@ a:hover{
 @media only screen and (min-width: 40rem;){
 
 .icon{
-	width: 50px;
+	width:50px;
 }
 
 }
@@ -956,7 +956,6 @@ body{
 	font-weight: 400;
 	color: #c0c0c0;
 	margin: 0 0 20px 0;
-	border-bottom: 
 }
 
 .color-options li{
