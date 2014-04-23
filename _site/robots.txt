@@ -1,5 +1,3 @@
 Sitemap: http://gagn0369.github.io/ecommerce-website/sitemap.xml
 
 User-agent: *
-
-Disallow:
