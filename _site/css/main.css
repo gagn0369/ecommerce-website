@@ -838,7 +838,7 @@ nav{
 .banner{
   background: #f9f7b7 url("../images/banner.jpg") no-repeat center center;
   background-size: cover;
-  padding: 4em 1em 1em 4em;
+  padding: 4em 1em 2em 1em;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -863,6 +863,11 @@ nav{
 .search-label{
 	position:absolute;
 	top:-10em;
+}
+
+.btn-login{
+	margin: 0.25rem;
+	margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 40rem){
@@ -910,6 +915,10 @@ body{
 	max-width: 190px;
 }
 
+.img-product{
+	padding-bottom: 1rem;
+}
+
 .subnav{
 	margin-bottom: 1rem;
 }
@@ -919,6 +928,11 @@ body{
 .stars-1{
 	display:none;
 }
+
+.img-product{
+	padding-bottom: 0;
+}
+
 
 }
 body{

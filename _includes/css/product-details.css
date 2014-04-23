@@ -31,6 +31,10 @@ body{
 	max-width: 190px;
 }
 
+.img-product{
+	padding-bottom: 1rem;
+}
+
 .subnav{
 	margin-bottom: 1rem;
 }
@@ -40,5 +44,10 @@ body{
 .stars-1{
 	display:none;
 }
+
+.img-product{
+	padding-bottom: 0;
+}
+
 
 }
