@@ -3,8 +3,8 @@ layout: product
 category: fruit
 name: Sweeties
 colour: green-yellow
-image: sweety.jpg
-alt: sweeities
+image: lemons.jpg
+alt: sweeties
 price: $1.50
 rating: fourstar.png
 flavor: Distinctly sweet (hence the name!)
