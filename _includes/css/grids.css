@@ -19,6 +19,10 @@
   word-spacing: -0.43em;
 }
 
+.island-1-2{
+  padding: 0.25em;
+}
+
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
