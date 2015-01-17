@@ -79,12 +79,12 @@ h6, .kilo {
 
 small, .milli {
   font-size: 0.8889rem;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .micro {
   font-size: 0.7901rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .brand-family{
